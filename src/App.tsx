@@ -1,12 +1,13 @@
-
-import './App.css'
-import { GamePage } from './pages/Game/GamePage'
+/// <reference types="vite-plugin-svgr/client" />
+import './App.css';
+import { GamePage } from './pages/Game/GamePage';
 
 function App() {
   return (
-    <><GamePage/>   
+    <>
+      <GamePage />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
