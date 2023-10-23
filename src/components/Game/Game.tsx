@@ -6,9 +6,9 @@ import Cave from '../Cave/Cave';
 const Game = () => {
   const [playerId, setPlayerId] = useState<string>('');
   const [playerToken, setPlayerToken] = useState<string>('');
-  const [caveData, setCaveData] = useState<{ left: number; right: number }[]>([
-    { left: 0, right: 0 },
-  ]);
+  const [caveData, setCaveData] = useState<{ left: number; right: number }[]>(
+    [],
+  );
 
   useEffect(() => {
     // Инициализация игры и получение данных о токене
